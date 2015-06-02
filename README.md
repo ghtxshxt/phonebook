@@ -39,7 +39,7 @@ int main()
 	{
 		PrintFileRecord(pFile, &item);
 		fclose(pFile);
-	}
+	} 
 
 	pFile = fopen("myfile.txt", "r");
 	if (pFile != NULL)
